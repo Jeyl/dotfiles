@@ -132,8 +132,8 @@ if type git >/dev/null 2>&1 ; then
 	
 	setGitCfg push.default "simple"
 	setGitCfg color.ui "auto"
-	if type kdiff3 >/dev/null 2>&1 ; then
-		setGitCfg merge.tool "kdiff3"
+	if type vimdiff>/dev/null 2>&1 ; then
+		setGitCfg merge.tool "vimdiff"
 	fi
 fi
 

@@ -43,3 +43,7 @@ alias setprinted="setfattr -n user.printed -v 'printed' "
 alias clearprinted="setfattr -x user.printed "
 
 alias sshfs="sshfs -o reconnect,ConnectTimeout=10,ServerAliveInterval=30"
+
+## opens new terminal at the same location
+alias t='urxvt -cd $(pwd) & disown'
+

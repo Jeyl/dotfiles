@@ -1,0 +1,4 @@
+alias sml='rlwrap -p'\''green'\'' sml'
+alias firefox='~/.mozilla/firefox/firefox'
+alias us='setxkbmap us && xmodmap .Xmodmap' 
+alias cisco='/opt/cisco/anyconnect/bin/./vpnui'
